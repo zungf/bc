@@ -34,13 +34,6 @@ client.user.setStatus("dnd")
 
 
 
-client.on("ready", () => {
-  function blue() {
-    client.guilds.get('514565152440451100').roles.find("name", "Rainbow").setColor("RANDOM");
-  };
-  setInterval(blue, 3000);
-});
-
 
 
 
